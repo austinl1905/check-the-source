@@ -31,7 +31,7 @@ body
 .numStyle
 {   font-size: 72px;
     color: transparent;
-    -webkit-text-stroke: 1px #CFCEEB;
+    -webkit-text-stroke: 1px #d1d1d1;
     letter-spacing: 10px;
     font-family: 'Anton', sans-serif;
 }
@@ -42,6 +42,7 @@ body
     max-width: 100%;
     height: 100vh;
     background-color: #aa1e00;
+    background: linear-gradient(90deg, rgba(157,0,0,1) 0%, rgba(255,78,78,1) 50%, rgba(157,0,0,1) 100%);
     align-items: center;
     box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -65,7 +66,7 @@ body
 }
 
 .headerLine
-{   color: #CFCEEB;
+{   color: #d1d1d1;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -74,10 +75,10 @@ body
 
 #headerH1
 {   font-family: 'Oswald', sans-serif;
-    /* color: #CFCEEB; */
+    /* color: #d1d1d1; */
     /* color: #17166E; */
     color: transparent;
-    -webkit-text-stroke: 3.5px #CFCEEB;
+    -webkit-text-stroke: 3.5px #d1d1d1;
     letter-spacing: 7.5px;
     /* background-color: #17166E; */
     font-size: 72px;
@@ -90,7 +91,7 @@ body
 #sectionHeaderH1
 {   font-family: 'Oswald', sans-serif;
     color: transparent;
-    -webkit-text-stroke: 3px #CFCEEB;
+    -webkit-text-stroke: 3px #a80000;
     letter-spacing: 5px;
     font-size: 48px;
     animation: fadein 2s;
@@ -102,18 +103,18 @@ body
 
 #headerH2
 {   font-family: 'Oswald', sans-serif;
-    color: #CFCEEB;
+    color: #d1d1d1;
     /* background-color: #17166E; */
     font-size: 32px;
     animation: fadein 4s;
     user-select: none;
     text-transform: uppercase;
-    text-align: center;
+    /* text-align: center; */
     z-index: 1;
 }
 
 #contentWrapper
-{   background-color: #CFCEEB;
+{   background-color: #d1d1d1;
     width: 100%;
     height: auto;
     padding-top: 50px;
@@ -123,7 +124,7 @@ body
 
 .contentLine
 {   width: 85%;
-    color: #17166E;
+    color: #a80000;
     border: 2px solid;
     margin-left: auto;
     margin-right: auto;
@@ -131,7 +132,7 @@ body
 
 #contentH2
 {   font-family: 'Oswald', sans-serif;
-    color: #17166E;
+    color: #a80000;
     font-size: 2.25em;
     width: 85%;
     margin-left: auto;
@@ -149,7 +150,7 @@ body
     column-gap: 25px;
     row-gap: 50px;
     padding: 25px;
-    background-color: #CFCEEB;
+    background-color: #d1d1d1;
     /* background-color: white; */
     justify-content: space-evenly;
     align-content: space-between;
@@ -250,7 +251,7 @@ body
 {   width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #0D0D3D;
+    background-color: #aa1e00;
 }
 
 #footerTextContainer
@@ -268,14 +269,13 @@ body
 {   font-family: 'Oswald', sans-serif;
     user-select: none;
     text-align: center;
-    color: #CFCEEB;
+    color: #d1d1d1;
     font-size: 32px;
-    margin-bottom: 50px;
 }
 
 .footerLine
 {   width: 80%;
-    color: #CFCEEB;
+    color: #d1d1d1;
     border: 2px solid;
     margin-left: auto;
     margin-right: auto;
@@ -284,12 +284,12 @@ body
 .footerText
 {   font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
-    color: #CFCEEB;
+    color: #d1d1d1;
 }
 
 .listStyle
-{   color: #CFCEEB;
-    list-style: url('src/water-favicon-reduced.png');
+{   color: #d1d1d1;
+    list-style: square;
     list-style-position: outside;
 }
 
@@ -422,7 +422,7 @@ body
 @media screen and (max-width: 512px)
 {   #headerH1
     {   font-size: 48px;
-        -webkit-text-stroke: 2px #CFCEEB;
+        -webkit-text-stroke: 2px #d1d1d1;
         letter-spacing: 3px;
     }
 
@@ -455,13 +455,23 @@ body
 
 @media screen and (max-width: 350px)
 {   #headerH1
-    {   -webkit-text-stroke: 1px #CFCEEB;
+    {   -webkit-text-stroke: 1px #d1d1d1;
         letter-spacing: 3px;
+    }
+
+    #headerH2
+    {   font-size: 16px;
+        
+    }
+
+    #contentH2
+    {   font-size: 20px;
+
     }
 
     #sectionHeaderH1
     {   font-size: 20px;
-        -webkit-text-stroke: 1px #CFCEEB;
+        -webkit-text-stroke: 1px #d1d1d1;
         letter-spacing: 2px;
     }
 
@@ -484,7 +494,7 @@ body
 
 @media screen and (max-width: 250px)
 {   #headerH1
-    {   -webkit-text-stroke: 2px #CFCEEB;
+    {   -webkit-text-stroke: 2px #d1d1d1;
         letter-spacing: 2px;
     }
 
