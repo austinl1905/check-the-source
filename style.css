@@ -784,9 +784,9 @@ body{
   .content-image {
     border: 3px solid gray;
     margin: 0 1em 1em 1em;
-    max-width: 35vw;
+    max-width: 30vw;
     height: auto;
-    width: 250px;
+    width: 300px;
     float: right;
   }
   
